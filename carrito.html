@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./multimedia/favicon.png" type="image/x-icon">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a class="btn-menu " id="carrito" href="./index.html">Seguir Comprando</a></li>
+                <li><a class="btn-menu active" id="carrito" href="./carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacío.</p>
+                <div id="carrito-productos" class="carrito-productos disable">
+                    <div id="carrito-productos" class="carrito-producto">
+                        
+                    </div>
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones disable">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="btn-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                        <button id="btn-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disable">Muchas gracias por tu compra.</p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="./js/carrito.js"></script>  
+</body>
+</html>
