@@ -1,0 +1,134 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo 01",
+        "imagen": "./multimedia/abrigo1.png",
+        "categoria": {
+            "nombre": "abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./multimedia/abrigo2.png",
+        "categoria": {
+            "nombre": "abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "./multimedia/abrigo3.png",
+        "categoria": {
+            "nombre": "abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "./multimedia/abrigo4.png",
+        "categoria": {
+            "nombre": "abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "camisa-01",
+        "titulo": "Remera 01",
+        "imagen": "./multimedia/camisa1.png",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "camisa-02",
+        "titulo": "Remera 02",
+        "imagen": "./multimedia/camisa2.png",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "camisa-03",
+        "titulo": "Remera 03",
+        "imagen": "./multimedia/camisa3.png",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "camisa-04",
+        "titulo": "Remera 04",
+        "imagen": "./multimedia/camisa4.png",
+        "categoria": {
+            "nombre": "camisas",
+            "id": "camisas"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalon 01",
+        "imagen": "./multimedia/pantalon1.png",
+        "categoria": {
+            "nombre": "pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalon 02",
+        "imagen": "./multimedia/pantalon2.png",
+        "categoria": {
+            "nombre": "pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalon 03",
+        "imagen": "./multimedia/pantalon3.png",
+        "categoria": {
+            "nombre": "pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalon 04",
+        "imagen": "./multimedia/pantalon4.png",
+        "categoria": {
+            "nombre": "pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+
+    }
+]

@@ -81,6 +81,14 @@ function eliminarDelCarrito(e) {
     cargarProductosCarrito();
     
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+
+    Swal.fire({
+        title: 'Producto borrado!',
+        text: '',
+        icon: 'warning',
+        iconColor: "red",
+        confirmButtonText: 'Seguir comprando'
+      })
     
 }
 
@@ -92,6 +100,14 @@ function vaciarCarrito() {
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
     cargarProductosCarrito();
+
+    Swal.fire({
+        title: 'Carrito vacio!',
+        text: '',
+        icon: 'warning',
+        iconColor: "red",
+        confirmButtonText: 'Seguir comprando'
+    })
 }
 
 function actualizarTotal() {
@@ -111,5 +127,12 @@ function comprarCarrito() {
     contenedorProductos.classList.add("disable");
     contenedorAcciones.classList.add("disable");
     contenedorComprado.classList.remove("disable");
+
+    Swal.fire({
+        title: 'Compra exitosa!',
+        text: '',
+        icon: 'success',
+        confirmButtonText: 'Seguir comprando'
+    })
 
 }
